@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id="window_test" title="Sections &amp; Rows">
+		<TableView id="table_test" filterAttribute="title">
+			<SearchBar id="search_test"/>
+			<TableViewSection>
+				<HeaderView>
+					<View backgroundColor="#a00" height="50dp"/>
+				</HeaderView>
+				<FooterView>
+					<View backgroundColor="#0a0" height="50dp"/>
+				</FooterView>
+				<TableViewRow title="Row 1"/>
+				<TableViewRow title="Row 2"/>
+				<TableViewRow title="Row 3"/>
+				<TableViewRow title="Title Text 1">
+					<Label id="label_1" text="Text 1"/>
+				</TableViewRow>
+			</TableViewSection>
+			<TableViewSection headerTitle="Section 2">
+				<TableViewRow title="Row 1"/>
+				<TableViewRow title="Row 2"/>
+				<TableViewRow title="Row 3"/>
+				<TableViewRow text="Text 2">
+			</TableViewSection>
+			<TableViewSection headerTitle="Section 3">
+				<TableViewRow title="Row 1"/>
+				<TableViewRow title="Row 2"/>
+				<TableViewRow title="Row 3"/>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>

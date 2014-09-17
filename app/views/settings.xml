@@ -1,0 +1,66 @@
+<Alloy>
+	<Tab id="settings" title="settings" icon="settings.png">
+	<Window class="container">
+		<TableView id="table_settings" backgroundColor="white">
+		<TableViewSection id="sectionScanner" headerTitle="Scanner">
+		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">EAN 13 & UPC 12</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">EAN 8</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">UPCE</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">ITF</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">QR</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">PDF417</Button> 	
+		</TableViewRow>
+		<TableViewRow id="row_EAD" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt1_button" left="50">Restrict Scanning Area</Button> 		
+  		</TableViewRow>	
+  		 </TableViewSection>
+  		<TableViewSection id="sectionSocial" headerTitle="Feedback">
+		<TableViewRow id="row_FB" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_fb" left="50">Beep</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_Twitter" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_twitter" left="50">Vibrate</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_Pinterest" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_pinterest" left="50">Flash</Button> 		
+  		</TableViewRow>
+  		</TableViewSection>
+  		<TableViewSection id="sectionSocial" headerTitle="Social Media">
+		<TableViewRow id="row_FB" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_fb" left="50">Facebook AutoConnect</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_Twitter" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_twitter" left="50">Twitter AutoConnect</Button> 		
+  		</TableViewRow>
+  		<TableViewRow id="row_Pinterest" backgroundColor="white">
+			<Switch id="opt1Switch" right="10" value="true" titleOn="OPTION 1 ON" titleOff="OPTION 1 OFF" />
+		<Button id="opt_pinterest" left="50">Pinterest AutoConnect</Button> 		
+  		</TableViewRow>
+  		</TableViewSection>
+  		</TableView>
+	</Window>
+	</Tab>
+</Alloy>

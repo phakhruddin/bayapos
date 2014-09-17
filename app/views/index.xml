@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection src="data"/>
+    <TabGroup id='tabGroup'>
+    	<Require src="main"/>
+        <Require src="scan"/>
+        <Require src="submit"/>
+        <Require src="history"/>
+        <Require src="settings"/>
+    </TabGroup>
+</Alloy>

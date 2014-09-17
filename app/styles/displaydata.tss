@@ -1,0 +1,8 @@
+"TableViewRow": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: '1',
+		fontStyle: 'normal'
+	}
+}

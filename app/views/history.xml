@@ -1,0 +1,21 @@
+<Alloy>
+	<Collection src="data"/>
+	<Tab id="history" title="history" icon="history.png">
+		<Window class="container">
+			<TableView id="table_history" backgroundColor="white">
+				<TableViewRow id="row_loaddata"backgroundColor="white">
+					<Label id="label_loaddata" color="orange" top="5" left="20" text="Load Data"> Load New xSaction Data </Label>
+				</TableViewRow>
+				<TableViewRow id="row_emaildata"backgroundColor="white">
+					<Label id="label_emaildata" color="orange" top="5" left="20" text="Email Data"> Email Loaded Data </Label>
+				</TableViewRow>
+				<TableViewRow id="row_displaydata"backgroundColor="white">
+					<Label id="label_displaydata" color="orange" top="5" left="20" text="Display Data"> Click to Display xSaction Data > </Label>
+				</TableViewRow>
+				<TableViewRow id="row_test"backgroundColor="white">
+					<Label id="label_test" color="orange" top="5" left="20" text="Test Search"> Click to Test Search > </Label>
+				</TableViewRow>
+			</TableView>
+		</Window>
+	</Tab>
+</Alloy>

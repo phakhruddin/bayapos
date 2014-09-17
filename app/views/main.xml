@@ -1,0 +1,37 @@
+<Alloy>
+	<Tab id="tab_main" title="main" icon="KS_nav_ui.png">
+	<Window id="window_main" title="Baya PointOfSale" class="container">
+	<TableView id="table_main" backgroundColor="white">
+    <TableViewRow  id="row_price" Title="PRICE" backgroundColor="white">
+      		<TextField id="price_tf"></TextField>
+			<Button id="save_price_button"></Button>
+    </TableViewRow>
+    <TableViewRow  id="row_qty" Title="QTY" backgroundColor="white">
+      		<TextField id="qty_tf"></TextField>
+			<Button id="save_qty_button"></Button>
+    </TableViewRow>
+    <TableViewRow  id="row_item" Title="Item Name" backgroundColor="white">
+      		<TextField id="item_tf"></TextField>
+			<Button id="save_item_button"></Button>
+    </TableViewRow>
+    <TableViewRow  id="row_name" Title="Customer Name" backgroundColor="white">
+      		<TextField id="name_tf"></TextField>
+			<Button id="save_name_button"></Button>
+    </TableViewRow>
+    <TableViewRow  id="row_paid" Title="Paid" backgroundColor="white">
+      		<TextField id="paid_tf"></TextField>
+			<Button id="save_paid_button"></Button>
+    </TableViewRow>
+    <TableViewRow id="row_scan" backgroundColor="white">
+    	<Label id="label_scan" color="orange" top="5" left="20" text="Scan Item">Press to Scan Item ></Label>
+    </TableViewRow>
+    <TableViewRow id="row_picture"backgroundColor="white">
+    	<Label id="label_picture" color="gray" top="5" left="20" text="Picture">Press to Take Picture ></Label>
+    </TableViewRow>
+    <TableViewRow id="row_done"backgroundColor="white">
+    	<Label id="label_done" color="#FF69B4" top="5" left="20" text="DONE"> Done, Save & Next </Label>
+    </TableViewRow>
+    </TableView>
+	</Window>
+	</Tab>
+</Alloy>

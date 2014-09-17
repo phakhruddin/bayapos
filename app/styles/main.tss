@@ -1,0 +1,120 @@
+
+".container" : {
+  
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#999"
+},
+"Label[platform=android]": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: '50dp',
+		fontStyle: 'normal'
+	}
+},
+"TableView": {
+	backgroundColor: "white" ,
+},
+"Tab":{
+	font: {
+		fontSize: '50dp',
+		fontWeight: 'bold',
+		textStyle : Ti.UI.TEXT_STYLE_HEADLINE
+	},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: 'red'
+},
+"#price_tf" : {
+		height: 40,
+		top:50,
+		width:250,
+		keyboardType: Titanium.UI.KEYBOARD_DECIMAL_PAD,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'PRICE e.g. 350'
+},
+"#price_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#save_price_button" :{
+		title:"Save",
+		height:Ti.UI.SIZE,
+		width:80,
+		top:20
+},
+"#qty_tf" : {
+		height: 40,
+		top:50,
+		width:250,
+		keyboardType: Titanium.UI.KEYBOARD_DECIMAL_PAD,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'QTY'
+},
+"#qty_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#save_qty_button" :{
+		title:"Save",
+		height:Ti.UI.SIZE,
+		width:80,
+		top:20
+},
+"#name_tf" : {
+		height: 40,
+		top:50,
+		width:250,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'Customer e.g. Kasma Ahmad'
+},
+"#name_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#save_name_button" :{
+		title:"Save",
+		height:Ti.UI.SIZE,
+		width:80,
+		top:20
+},
+"#item_tf" : {
+		height: 40,
+		top:50,
+		width:250,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'Hanami'
+},
+"#item_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#save_item_button" :{
+		title:"Save",
+		height:Ti.UI.SIZE,
+		width:80,
+		top:20
+},
+"#paid_tf" : {
+		height: 40,
+		top:50,
+		width:250,
+		keyboardType: Titanium.UI.KEYBOARD_DECIMAL_PAD,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'Paid. e.g. 0'
+},
+"#paid_tf[platform=android]" : {
+		height:Ti.UI.SIZE ,
+},
+"#save_paid_button" :{
+		title:"Save",
+		height:Ti.UI.SIZE,
+		width:80,
+		top:20
+},
+"#label_done" :{
+		title:"Done & Save",
+		height:Ti.UI.SIZE,
+		font: {
+			fontSize: '30dp'
+		}
+}
