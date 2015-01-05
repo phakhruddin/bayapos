@@ -1,10 +1,18 @@
 <Alloy>
 	<Collection src="data"/>
     <TabGroup id='tabGroup'>
-    	<Require src="main"/>
-        <Require src="scan"/>
-        <Require src="submit"/>
-        <Require src="history"/>
-        <Require src="settings"/>
+    	<Tab id="tab_main" title="main" icon="KS_nav_ui.png">
+    		<Require src="main"/>
+    	</Tab>
+		<Tab id="scan" title="scan" icon="scan.png">
+			<Require src="scan"/>
+		</Tab>
+			<Tab id="tab_submit" title="email" icon="phone_email.png">
+		<Require src="submit"/>
+		</Tab>
+			<Require src="history"/>
+		<Tab id="settings" title="settings" icon="settings.png">
+			<Require src="settings"/>
+		</Tab>
     </TabGroup>
 </Alloy>

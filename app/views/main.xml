@@ -1,5 +1,4 @@
-<Alloy>
-	<Tab id="tab_main" title="main" icon="KS_nav_ui.png">
+<Alloy>	
 	<Window id="window_main" title="Baya PointOfSale" class="container">
 	<TableView id="table_main" backgroundColor="white">
     <TableViewRow  id="row_price" Title="PRICE" backgroundColor="white">
@@ -33,5 +32,4 @@
     </TableViewRow>
     </TableView>
 	</Window>
-	</Tab>
 </Alloy>

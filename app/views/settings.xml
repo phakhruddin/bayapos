@@ -1,5 +1,4 @@
 <Alloy>
-	<Tab id="settings" title="settings" icon="settings.png">
 	<Window class="container">
 		<TableView id="table_settings" backgroundColor="white">
 		<TableViewSection id="sectionScanner" headerTitle="Scanner">
@@ -62,5 +61,4 @@
   		</TableViewSection>
   		</TableView>
 	</Window>
-	</Tab>
 </Alloy>

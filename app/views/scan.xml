@@ -1,9 +1,7 @@
 <Alloy>
-	<Tab id="scan" title="scan" icon="scan.png">
 	<Window id="window_scan" class="container">
 		<View id="view_scan" backgroundColor="#8C0221">
-			<Button id="button" width="200" height="85" title="PRESS TO SCAN">
+			<Button id="button" width="200" height="85" title="PRESS TO SCAN"/>
 		</View>
 	</Window>
-	</Tab>
 </Alloy>

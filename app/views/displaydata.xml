@@ -4,7 +4,7 @@
 		<TableView id="table_displaydata" backgroundColor="white" dataCollection="data" search="search_history" dataTransform="transformFunction" filterAttribute="title">
 			<SearchBar id="search_history" height="43" />
 			<TableViewRow id="row_displaydata" color="#FCFCFC" title="{custom}">
-				<Label color="gray" text="{custom}"> 
+				<Label color="gray" text="{custom}"/> 
 			</TableViewRow>
 		</TableView>
 	</Window>

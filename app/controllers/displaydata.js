@@ -1,4 +1,5 @@
 var args = arguments[0] || {};
+console.log("displaying DATA ::: "+JSON.stringify(args));
 exports.openMainWindow = function(_tab) {
 	console.debug("This is child widow tabViewOneChild.js" +_tab);
 	_tab.open($.window_displaydata);
@@ -8,7 +9,7 @@ exports.openMainWindow = function(_tab) {
 
 function transformFunction(model) {
 	var transform = model.toJSON();
-	console.log("transform is :" +JSON.stringify(transform));
+	console.log("transform is ::" +JSON.stringify(transform));
 	transform.custom = ">> On "+transform.col1+" , sold : "+transform.col2;
 	return transform;
 }

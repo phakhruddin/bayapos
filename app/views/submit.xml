@@ -1,7 +1,5 @@
 <Alloy>
-	<Tab id="tab_submit" title="email" icon="phone_email.png">
 	<Window class="container">
-		<Button id="sendemail" title="Send Email">
+		<Button id="sendemail" title="Send Email"/>
 	</Window>
-	</Tab>
 </Alloy>
